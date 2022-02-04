@@ -1,0 +1,6 @@
+
+# Draw PD
+
+Perhaps one of the most exciting things I did over the summer of 2020 was learn how DrawPD works. This was a function our group had been using for a very long time. Essentially it takes a PD code and outputs a beautiful knot with smooth curves and crossings visible. It remained a mystery to most of us, but it worked nonetheless. What I found out in trying to understand this, is why the function would get stuck sometimes. It got quite unbearable at larger crossing numbers and took upwards of 2 minutes for a 14 crossing knot. I decided that it was time to look at the code and make optimizations. It turns out I was able to heuristically speed up the program almost infinitely, with a visually identical output, with the small caveat that there is a infinitessimal chance the output is not the 'perfect' 'mathematical' result. For any reasonable crossing number, however, the outputs have always been identical, but much faster. I never understood the program fully, but I have a much better sense at what is going on under the hood.
+
+The updated version of DrawPD can be imported in the NewDrawPD.m file within Mathematica.

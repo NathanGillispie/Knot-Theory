@@ -1,0 +1,1 @@
+This folder provides functions for the interconversion between PD/Conway notation. PD notation is more robust here as ConwayToPD is based off precompiled graph files found within linknots.
